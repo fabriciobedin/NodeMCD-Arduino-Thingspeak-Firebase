@@ -10,12 +10,12 @@
 #define FIREBASE_HOST "testeesp8266.firebaseio.com"
 #define FIREBASE_AUTH "TR5eDIZZSyNDciF9JD9epICT2xJdQJPl4MOJCVZo"
 #define WIFI_SSID "wlanfabricio"
-#define WIFI_PASSWORD "Beteraba01"
+#define WIFI_PASSWORD "xxxxxxx"
  
 //Definir o SSID da rede WiFi
 //const char* WIFI_SSID = "wlanfabricio";
 //Definir a senha da rede WiFi
-//const char* WIFI_PASSWORD = "Beteraba01";
+//const char* WIFI_PASSWORD = "xxxxxxx";
  
 //Colocar a API Key para escrita neste campo
 //Ela é fornecida no canal que foi criado na aba API Keys
