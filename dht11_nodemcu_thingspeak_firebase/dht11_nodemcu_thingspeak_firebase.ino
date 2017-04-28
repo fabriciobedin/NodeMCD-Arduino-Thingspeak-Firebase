@@ -9,8 +9,8 @@
 #define DHTTYPE DHT11
 #define FIREBASE_HOST "testeesp8266.firebaseio.com"
 #define FIREBASE_AUTH "TR5eDIZZSyNDciF9JD9epICT2xJdQJPl4MOJCVZo"
-#define WIFI_SSID "wlanfabricio"
-#define WIFI_PASSWORD "xxxxxxx"
+#define WIFI_SSID "GraficaTI"
+#define WIFI_PASSWORD "grafserafti1013"
  
 //Definir o SSID da rede WiFi
 //const char* WIFI_SSID = "wlanfabricio";

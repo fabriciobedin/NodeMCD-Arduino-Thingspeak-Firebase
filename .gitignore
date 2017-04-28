@@ -1,0 +1,9 @@
+*.iml
+/ProjetoAndroid/.gradle
+/ProjetoAndroid/local.properties
+/ProjetoAndroid/.idea/workspace.xml
+/ProjetoAndroid/.idea/libraries
+/ProjetoAndroid/.DS_Store
+/ProjetoAndroid/build
+/ProjetoAndroid/captures
+/ProjetoAndroid/.externalNativeBuild
