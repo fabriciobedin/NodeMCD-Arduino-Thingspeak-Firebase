@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "30057369451",
+    "firebase_url": "https://androidnodemcu.firebaseio.com",
+    "project_id": "androidnodemcu",
+    "storage_bucket": "androidnodemcu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30057369451:android:67edd1e5c061926c",
+        "android_client_info": {
+          "package_name": "io.github.fabriciobedin.androidnodemcu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30057369451-cif719em24lirj6iljc0b7b97d9893hf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.fabriciobedin.androidnodemcu",
+            "certificate_hash": "c0959f4f14e6c2bd4df556931ab0d0e0eff64182"
+          }
+        },
+        {
+          "client_id": "30057369451-hjneq6ignbh117l73ffq0jp1l5sis63u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcyz3je43FBL3PzUaq4IwwqksKYXr9bqg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30057369451-hjneq6ignbh117l73ffq0jp1l5sis63u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
