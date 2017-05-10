@@ -9,8 +9,8 @@
 #define DHTTYPE DHT11
 #define FIREBASE_HOST "testeesp8266.firebaseio.com"
 #define FIREBASE_AUTH "TR5eDIZZSyNDciF9JD9epICT2xJdQJPl4MOJCVZo"
-#define WIFI_SSID "GraficaTI"
-#define WIFI_PASSWORD "grafserafti1013"
+#define WIFI_SSID "VIVO-3821"
+#define WIFI_PASSWORD "1603026720"
  
 //Definir o SSID da rede WiFi
 //const char* WIFI_SSID = "wlanfabricio";
@@ -34,6 +34,7 @@ void setup() {
 //  pinMode(NIVEL1, INPUT);
 //  pinMode(NIVEL2, INPUT);
 //  pinMode(NIVEL3, INPUT);
+  pinMode(13, OUTPUT);
 
  //Inicia o WiFi
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
@@ -58,12 +59,16 @@ void setup() {
  
 void loop() {
 
+<<<<<<< HEAD
   // read the input on analog pin 0:
   int sensorValue = analogRead(A0);
   // Convert the analog reading (which goes from 0 - 1023) to a voltage (0 - 5V):
   float voltage = sensorValue * (5.0 / 1023.0);
   // print out the value you read:
   Serial.println(voltage);
+=======
+  //digitalWrite(13, HIGH);
+>>>>>>> 02548afb10ec328642eedc444e5a4c7eef13ec6e
  
   //Espera 0,5 segundos para fazer a leitura
   delay(500);
@@ -75,15 +80,15 @@ void loop() {
   float luminosidade = analogRead(LDR_DATA_PIN);
  
   //Se não for um numero retorna erro de leitura
-  if (isnan(umidade) || isnan(temperatura)) {
-    Serial.println("Erro ao ler o sensor DHT11!");
-    return;
-  }
+  //if (isnan(umidade) || isnan(temperatura)) {
+  //  Serial.println("Erro ao ler o sensor DHT11!");
+  //  return;
+  //}
 
-  if (isnan(luminosidade)) {
-    Serial.println("Erro ao ler o sensor LDR!");
-    return;
-  }
+  //if (isnan(luminosidade)) {
+  //  Serial.println("Erro ao ler o sensor LDR!");
+  //  return;
+  //}
 
   Firebase.setFloat("temperatura", temperatura);
   Firebase.setFloat("umidade", umidade);
@@ -123,4 +128,6 @@ void loop() {
      Serial.println(luminosidade);
   }
   client.stop();
+
+  
 }
