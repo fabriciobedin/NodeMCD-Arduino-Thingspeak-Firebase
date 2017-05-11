@@ -8,10 +8,14 @@
     tools:context="io.github.fabriciobedin.androidnodemcu.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <com.google.android.gms.common.SignInButton
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/btn_logout_google"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_login_google" />
+        android:text="Logout Google"
+        tools:layout_editor_absoluteY="67dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

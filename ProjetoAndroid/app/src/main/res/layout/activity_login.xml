@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="io.github.fabriciobedin.androidnodemcu.AccountActivity">
+    tools:context="io.github.fabriciobedin.androidnodemcu.LoginActivity">
 
-    <Button
-        android:id="@+id/btn_logout_google"
-        android:layout_width="wrap_content"
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Logout Google"
-        tools:layout_editor_absoluteY="67dp"
-        tools:layout_editor_absoluteX="125dp" />
+        android:id="@+id/btn_login_google" />
+
 </android.support.constraint.ConstraintLayout>
